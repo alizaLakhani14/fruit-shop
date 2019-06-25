@@ -57,14 +57,14 @@ padding-bottom: 1.5em;
 }
 
 #apple, #orange, #banana{
-    border:1px solid black;
-    height: 200px;
-    width: 200px;
-    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+  text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right:10px;
-    background-color: white;
+    background-color: #f3f3f3;;
+    border-radius: 10px;
 }
 
 .price{
@@ -74,8 +74,39 @@ padding-bottom: 1.5em;
     /* padding-left:10px;
     padding-right:10px; */
     text-align: center;
+     border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+  
+    
 }
 
 .price p{
     color:white;
 }
+
+img{
+    padding-top: 45px;
+}
+ button{
+    background-color: #444b49;
+    color: white;
+    border: none;
+    height: 31px;
+    width: 31px;
+ }
+
+ input{
+     height: 25px;
+     width: 150px;
+ }
+ .add{
+     margin-right: -4px;
+     border-top-left-radius: 15px;
+     border-bottom-left-radius: 15px;
+ }
+
+ .subtract{
+     margin-left: -4px;
+     border-top-right-radius: 15px;
+     border-bottom-right-radius: 15px;
+ }

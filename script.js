@@ -1,12 +1,38 @@
-// function Age(){
-//     let reqAge = document.querySelector ("input").value; 
+function addApple(){
+    let applePlus = document.querySelector(" #appleQuantity").value++;
+   
+}
+
+function addOrange(){
+    let orangePlus = document.querySelector(" #orangeQuantity").value++;
+   
+}
+
+function addBanana(){
+    let bananaPlus = document.querySelector(" #bananaQuantity").value++;
+   
+}
 
 
-// if(reqAge > 14){
-//     alert("Eligible");
-// } 
+function subtractApple(){
+    let appleMinus = document.querySelector(" #appleQuantity").value;
+    if (appleMinus > 0){
+        let appleMinus = document.querySelector(" #appleQuantity").value--;
+    }
 
-// else{
-//     alert("Sorry not eligible");
-// }
-// }
+  
+}
+
+function subtractOrange(){
+    let orangeMinus = document.querySelector(" #orangeQuantity").value;
+    if (orangeMinus > 0){
+        let orangeMinus = document.querySelector(" #orangeQuantity").value--;
+    }
+}
+
+function subtractBanana(){
+    let bananaMinus = document.querySelector(" #bananaQuantity").value;
+    if (bananaMinus > 0){
+        let bananaMinus = document.querySelector(" #bananaQuantity").value--;
+    }
+}

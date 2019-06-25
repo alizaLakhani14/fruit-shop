@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,39 +8,60 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-   
 
-  <header>
-      <h1>Fruit Shop</h1>
-  </header>
- <section id="input">
-     <label for="input-1">I have Rs.</label>
-     <input type="number" id="input-1">
- </section>  
- <section id="total">
-     <label for="input-2">Your total is Rs.</label>
-     <input id="input-2" type="number">
- </section>  
- <section id="fruits">
-     <div id="apple">
-        <div class="price">
-            <p>Rs.10</p>
+<body>
+
+
+    <header>
+        <h1>Fruit Shop</h1>
+    </header>
+    <section id="input">
+        <label for="input-1">I have Rs.</label>
+        <input type="number" id="input-1">
+    </section>
+    <section id="total">
+        <label for="input-2">Your total is Rs.</label>
+        <input id="input-2" type="number">
+    </section>
+    <!-- Cart -->
+    <section id="fruits">
+        <div id="apple">
+            <div class="price">
+                <p>Rs.10</p>
+            </div>
+            <img src="apple.PNG" alt="apple">
+            <div class="cart">
+                <button class="add" onclick="addApple()">+</button>
+                <input type="number" id="appleQuantity">
+                <button class="subtract" onclick="subtractApple()">-</button>
+            </div>
         </div>
-     </div>
-     <div id="orange">
-        <div class="price">
-            <p>Rs.15</p>
+        <div id="orange">
+            <div class="price">
+                <p>Rs.15</p>
+            </div>
+            <img src="orange.PNG" alt="orange">
+            <div class="cart">
+                <button class="add" onclick="addOrange()">+</button>
+                <input type="number"   id="orangeQuantity">
+                <button class="subtract" onclick="subtractOrange()">-</button>
+            </div>
         </div>
-     </div>
-     <div id="banana">
-        <div class="price">
-            <p>Rs.7</p>
+        <div id="banana">
+            <div class="price">
+                <p>Rs.7</p>
+            </div>
+            <img src="banana.PNG" alt="banana">
+            <div class="cart">
+                <button class="add" onclick="addBanana()">+</button>
+                <input type="number" id="bananaQuantity">
+                <button class="subtract" onclick="subtractBanana()">-</button>
+            </div>
         </div>
-     </div>
- </section>  
- <footer></footer>
- 
- <script src="script.js"></script>
+    </section>
+    <footer></footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
