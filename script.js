@@ -1,38 +1,46 @@
+appleQuantity = document.querySelector(" #appleQuantity").value;
+orangeQuantity = document.querySelector(" #orangeQuantity").value;
+bananaQuantity = document.querySelector(" #bananaQuantity").value;
+
 function addApple(){
-    let applePlus = document.querySelector(" #appleQuantity").value++;
+// appleQuantity = document.querySelector(" #appleQuantity").value;
+// orangeQuantity = document.querySelector(" #orangeQuantity").value;
+// bananaQuantity = document.querySelector(" #bananaQuantity").value;
+
+    let applePlus = appleQuantity++;
    
 }
 
 function addOrange(){
-    let orangePlus = document.querySelector(" #orangeQuantity").value++;
+    let orangePlus = orangeQuantity++;
    
 }
 
 function addBanana(){
-    let bananaPlus = document.querySelector(" #bananaQuantity").value++;
+    let bananaPlus = bananaQuantity++;
    
 }
 
 
 function subtractApple(){
-    let appleMinus = document.querySelector(" #appleQuantity").value;
-    if (appleMinus > 0){
-        let appleMinus = document.querySelector(" #appleQuantity").value--;
+   
+    if (appleQuantity > 0){
+        let appleMinus = appleQuantity--;
     }
 
   
 }
 
 function subtractOrange(){
-    let orangeMinus = document.querySelector(" #orangeQuantity").value;
-    if (orangeMinus > 0){
-        let orangeMinus = document.querySelector(" #orangeQuantity").value--;
+    
+    if (orangeQuantity > 0){
+        let orangeMinus = orangeQuantity--;
     }
 }
 
 function subtractBanana(){
-    let bananaMinus = document.querySelector(" #bananaQuantity").value;
-    if (bananaMinus > 0){
-        let bananaMinus = document.querySelector(" #bananaQuantity").value--;
+  
+    if (bananaQuantity > 0){
+        let bananaMinus = bananaQuantity--;
     }
 }
